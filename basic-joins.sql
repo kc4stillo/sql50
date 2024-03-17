@@ -36,5 +36,11 @@ WHERE bonus < 1000 or bonus is null
 -- #1280 students and examinations
 
 -- #570 managers with at least 5 direct reports
+SELECT name
+from employee
+where id in (select managerId
+from employee
+group by managerId
+having count(*) >= 5)
 
 -- #1934 confirmation rate
