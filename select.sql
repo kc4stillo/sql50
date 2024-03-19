@@ -2,27 +2,43 @@
 SELECT
     product_id
 FROM
-    Products 
+    products
 WHERE
-    low_fats = 'Y' 
+    low_fats = 'Y'
     AND recyclable = 'Y'
-
+    
 -- #584 find customer referee
-SELECT name
-FROM customer
-where referee_id <> 2 or referee_id is null
+SELECT
+    name
+FROM
+    customer
+WHERE
+    referee_id <> 2
+    OR referee_id IS NULL
 
 -- #595 big countries
-select name, population, area
-from world
-where area >= 3000000 or population >= 25000000
+SELECT
+    name,
+    population,
+    area
+FROM
+    world
+WHERE
+    area >= 3000000
+    OR population >= 25000000
 
 -- #1148 article views i
-select autor_id as id
-from views
-where author_id = viewer_id
+SELECT
+    autor_id AS id
+FROM
+    VIEWS
+WHERE
+    author_id = viewer_id
 
 -- #1683 invalid tweets
-select tweet_id
-from Tweets
-where length(content) > 15
+SELECT
+    tweet_id
+FROM
+    tweets
+WHERE
+    LENGTH(CONTENT) > 15
