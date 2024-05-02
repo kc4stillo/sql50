@@ -14,13 +14,13 @@ Welcome to my LeetCode study guide solutions repository! This repository contain
 
 ## Usage
 
-Feel free to explore the various folders in this repository to find solutions to different types of problems. Each problem solution is contained within its own file and may include comments to explain the thought process behind the solution.
+Feel free to explore the various folders in this repository to find solutions to different types of problems. Each problem set is contained within its own file and may include comments to explain the thought process behind the solution.
 
 If you encounter any issues or have suggestions for improvements, please don't hesitate to open an issue or submit a pull request!
 
 ## Contributing
 
-Contributions are welcome! If you have alternative solutions, optimizations, or improvements to existing solutions, feel free to contribute. Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
+Contributions are welcome! If you have alternative solutions, optimizations, or improvements to existing solutions, feel free to contribute. Please message me!
 
 ## License
 
