@@ -6,8 +6,7 @@ FROM employees
 	LEFT JOIN employeeuni USING (id);
 
 -- #1068 product sales analysis i
--- Analyzes product sales by retrieving product names, year, and price from 
--- combined sales and product tables.
+-- Analyzes product sales by retrieving product names, year, and price from combined sales and product tables.
 SELECT product_name
 	, year
 	, price
@@ -15,8 +14,7 @@ FROM sales
 	INNER JOIN product USING (product_id);
 
 -- #1581 customer who visited but did not make any transactions
--- Retrieves customers who visited but did not make any transactions, 
--- counting such visits.
+-- Retrieves customers who visited but did not make any transactions, counting such visits.
 SELECT customer_id
 	, COUNT(*) AS count_no_trans
 FROM visits AS v
