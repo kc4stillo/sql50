@@ -1,4 +1,4 @@
-# LeetCode Study Guide Solutions
+# LeetCode SQL 50 Study Guide Solutions
 
 Welcome to my LeetCode study guide solutions repository! This repository contains my own solutions to various problems sourced from LeetCode. Below, you'll find some important information about this repository.
 
