@@ -1,4 +1,11 @@
 -- #1667 fix names in a table
+SELECT user_id
+     , CONCAT(
+           UPPER(SUBSTRING(name, 1, 1))
+         , LOWER(SUBSTRING(name, 2, LENGTH(name)))
+       ) AS name
+  FROM users
+ ORDER BY user_id;
 
 -- #1527 patients with a condition
 SELECT
@@ -51,3 +58,6 @@ HAVING
     SUM(unit) >= 100
 
 -- 1517 find users with valid e-mails
+SELECT *
+  FROM users
+ WHERE REGEXP_LIKE(mail, '^[A-Za-z]+[A-Za-z0-9_.\-]*@leetcode\.com$');
