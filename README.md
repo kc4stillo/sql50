@@ -1,12 +1,12 @@
 # LeetCode SQL 50 Study Guide Solutions
 
-Welcome to my LeetCode study guide solutions repository! This repository contains my own solutions to various problems sourced from LeetCode. Below, you'll find some important information about this repository.
+This repository contains my own solutions to various problems sourced from LeetCode.
 
 ## Important Information
 
 ### Solutions Disclaimer
 
-- **These Solutions are My Own**: Please note that the solutions provided in this repository are my own work. While I strive to provide accurate and efficient solutions, they may not always be the most optimized or elegant. Feel free to suggest improvements or optimizations if you come across any!
+- **These Solutions are My Own**: Please note that the solutions provided in this repository are my own work. They may not always be the most optimized or elegant. Feel free to suggest improvements or optimizations if you come across any!
 
 ### Problem Sources
 
@@ -14,7 +14,7 @@ Welcome to my LeetCode study guide solutions repository! This repository contain
 
 ## Usage
 
-Feel free to explore the various folders in this repository to find solutions to different types of problems. Each problem set is contained within its own file and may include comments to explain the thought process behind the solution.
+Feel free to explore the various folders in this repository to find solutions to different types of problems.
 
 If you encounter any issues or have suggestions for improvements, please don't hesitate to open an issue or submit a pull request!
 
@@ -24,7 +24,7 @@ Contributions are welcome! If you have alternative solutions, optimizations, or 
 
 ## License
 
-This repository is licensed under the [MIT License](LICENSE). Feel free to use the code in this repository for personal or educational purposes, but please be mindful of the license terms.
+This repository is licensed under the [MIT License](LICENSE). Feel free to use the code in this repository for personal or educational purposes.
 
 ## Disclaimer
 
