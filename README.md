@@ -25,7 +25,3 @@ Contributions are welcome! If you have alternative solutions, optimizations, or 
 ## License
 
 This repository is licensed under the [MIT License](LICENSE). Feel free to use the code in this repository for personal or educational purposes.
-
-## Disclaimer
-
-This repository is not affiliated with LeetCode or any other organization. The solutions provided here are for educational purposes only.
